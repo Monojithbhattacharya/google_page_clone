@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Google</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-image: url("./image/lance-asper-Ny0C6Iwou40-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #top{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 1rem;
+            margin-right: 1rem;
+        }
+        .top-right{
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        #center{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            height:22rem;
+            top: 8rem;
+            h1{
+                font-size: 100px;
+                color: white;
+                margin-top: 5vh;
+                margin-bottom:1rem;
+            }
+            .input{
+                border: 1px solid white;
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                height:fit-content;
+                width: 35rem;
+                justify-content: space-between;
+                border-radius: 20px;
+                    input{
+                        top: 8rem;
+                        width: 500px;
+                        height: 35px;
+                        border: 1px solid white;
+                        outline: none;
+                        padding-left: 5px;
+                        border-radius: 20px;
+                    }
+                    #s{
+                        margin-top: 9px;
+                        margin-left: 8px;
+                    }
+                    #mic , #cam{
+                        margin-top: 9px;
+                        margin-right: 10px;
+                    }
+            }
+            #bottom{
+                width: 6rem;
+                height: 7rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                #sm{
+                    background-color: white;
+                    width: 4rem;
+                    height: 4rem;
+                    margin-top: 25px;
+                    margin-left: 16px;
+                    border-radius: 50%;
+                    padding-top: 3px;
+                    padding-left: 2px;
+                    h2{
+                        font-size: 50px;
+                        margin-left: 16px;
+                        opacity: 0.8;
+                    }
+                }
+            }
+            #bottom:hover{
+                background-color: rgba(128, 128, 128, 0.218);
+            }
+        }
+        #foot{
+            display: flex;
+            margin-top: 17rem;
+            justify-content: flex-start;
+            justify-content: space-between;
+            #a{
+                margin-left: 20px;
+                text-decoration: none;
+                color: white;
+                font-size: 10px;
+            }
+            i{
+                color: white;
+                margin-right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <a href="https://www.gmail.com" class="top-right">Gmail</a>
+        <a href="https://www.unsplash.com" class="top-right">Images</a>
+        <i class="fa-solid fa-flask top-right"></i>
+        <i class="fa-solid fa-bars top-right"></i>
+        <i class="fa-solid fa-user top-right"></i>
+    </div>
+    <div id="center">
+        <h1>Google</h1>
+        <div class="input">
+            <i class="fa-solid fa-magnifying-glass" id="s"></i>
+            <input type="text" placeholder="Search google or type a URL">
+            <i class="fa-solid fa-microphone" id="mic"></i>
+            <i class="fa-solid fa-camera" id="cam"></i>
+        </div>
+        <div id="bottom">
+            <div id="sm">
+                <h2>+</h2>
+            </div>
+        </div>
+    </div>
+    <div id="foot">
+        <a id="a" href="/HTML/image/lance-asper-Ny0C6Iwou40-unsplash.jpg"><i class="fa-solid fa-link">this image took from google</i></a>
+        <i class="fa-solid fa-pen"></i>
+    </div>
+</body>
+</html>
